@@ -1,0 +1,303 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url('blue_bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right bottom, left top;
+    height: 500px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    width: 100%;
+    padding-left: 50px;
+    
+}
+
+.div1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.div1 p {
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.div1 .line {
+    color: black;
+    position: relative;   
+}
+
+.div1 .line::after {
+    content: '';
+    height: 2px;
+    width: 40%;
+    background: red;
+    position: absolute;
+    left: 30%;
+    bottom: 0;
+    text-decoration: underline;
+}
+
+.div2 {
+    position: relative;
+    padding-right: 90px;
+    padding-top: 40px;
+}
+
+.img2 { 
+    position: absolute;
+    right: 80px;
+}
+
+.p2 {
+    font-size: small;
+    position: absolute;
+    right: 40px;
+    height: 100%;
+    width: 100%; 
+    padding-top: 3px;
+}
+
+/* end nav */
+
+.secmain {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    width: 100%;
+    padding-top: 55px;
+}
+
+.secmain .divmain h1 {
+    padding-top: 30px;
+    padding-left: 80px;
+    width: 90%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.secmain .divmain p  {
+    padding-left: 85px;
+    width: 70%;
+    font-size: 25px;
+}
+
+.secmain u {
+    text-decoration: none;
+    color: rgb(161, 52, 161);
+}
+
+.secmain .imgmain {
+    position: relative;
+    bottom: 100px;
+    z-index: 2;
+}
+
+.imgmain .img-2 {
+    position: absolute;
+    left: 150px;
+    top: 35px;
+    z-index: 1;
+}
+
+.imgmain .img-3 {
+    position: absolute;
+    top: 255px;
+    left: 100px;
+    z-index: 1;   
+}
+
+.middle {
+    position: absolute;
+    top: 380px;
+    left: 100px;
+}
+
+/* end first section */
+
+.sec2 {
+    margin-top: 70px;
+    position: relative; 
+}
+
+.sec2 .img-sec2 {
+    position: relative;
+    top: 50px;
+    left: 420px;
+}
+
+.img2-sec2 {
+    position: absolute;
+    top: 120px;
+    left: 300px;
+    width: 240px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
+.img3-sec2 {
+    position: absolute;
+    top: 260px;
+    left: 650px;
+    width: 23%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
+.img4-sec2 {
+    position: absolute;
+    top: 450px;
+    left: 950px;
+    width: 23%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
+.sec3 {
+    position: relative;
+    height: 200px;
+    margin: 80px;
+    margin-top: 1px;
+    color: white;
+}
+.sec3 .sec3-text {
+    padding-left: 80px;
+    padding-top: 80px;
+}
+
+.img-sec3 {
+    position: absolute;
+    z-index: -1;
+}
+
+.sec3-text h3 {
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.sec4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+
+
+.div2-sec4 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;  
+}
+
+.div2-sec4 .pdiv2 {
+    width: 200px;
+    text-align: center;
+    margin-left: 150px;
+}
+
+/* end middle */
+
+footer {
+    background-image: url('bottom.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 1740px 900px;
+    height: 85vh;
+    overflow: hidden;
+    position: relative;
+}
+
+footer .end {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.div1-end {
+    position: absolute;
+    left: 100px;
+    padding-top: 410px; 
+}
+
+.form-end {
+    margin-bottom: 20px;
+}
+
+.form-end {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.form1 {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: white;
+    padding-top: 5px;
+    padding-right: 10px;
+    width: 150px;
+    height: 45px;
+}
+
+.form1 img {
+    padding-left: 7px;
+}
+
+.form2 img {
+    padding-top: 3px;
+    padding-left: 7px;  
+}
+
+.form2 {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: white;
+    padding-top: 5px;
+    padding-right: 10px;
+    width: 150px;
+    height: 45px;     
+}
+
+.icon-end {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    padding-bottom: 20px;    
+}
+
+.end a {
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 15px;
+}
+
+.div2-end {
+    position: absolute;
+    top: 140px;
+    right: 70px;
+    z-index: 1;
+}
+
+git init
+git add.
+git commit -m "first commit"
+git push --force origin master
+
+
